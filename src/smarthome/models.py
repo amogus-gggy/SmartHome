@@ -24,7 +24,6 @@ class ControllerMode(StrEnum):
 
 @dataclass(frozen=True, slots=True)
 class SensorEvent:
-    # TODO: add logic
     timestamp: str
     room: str
     temperature_c: float
@@ -36,7 +35,6 @@ class SensorEvent:
 
 @dataclass(frozen=True, slots=True)
 class AgentAction:
-    # TODO: add logic
     timestamp: str
     room: str
     device: str
